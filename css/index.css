@@ -1,0 +1,147 @@
+.header,
+.features,
+.about-job {
+  background-color: var(--background-color1);
+}
+
+.hero {
+  background-color: var(--background-color3);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-title {
+  color: var(--foreground-color3);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  width: 650px;
+}
+
+.hero-button {
+  background-color: var(--button);
+  color: var(--foreground-color3);
+  font-family: inherit;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border: none;
+  border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hoverfocus-color);
+}
+
+.our-team {
+  background-color: var(--background-color2);
+}
+
+.features-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.features-description {
+  color: var(--foreground-color2);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.features .list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.features {
+  padding-bottom: 47px;
+}
+
+.about-job {
+  padding-top: 47px;
+}
+
+.about-job .title,
+.our-team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.about-job .list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+
+.about-job .item {
+  flex-basis: calc((100% - 2 * 30px) / 3);
+}
+
+.our-team .list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+
+.our-team .item {
+  flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+.our-team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.our-team .position {
+  color: var(--foreground-color2);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team .wrapper {
+  background-color: var(--background-color1);
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
