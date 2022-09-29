@@ -91,6 +91,7 @@
   padding-top: 47px;
 }
 
+.clients .title,
 .about-job .title,
 .our-team .title {
   font-weight: 700;
@@ -163,7 +164,7 @@
 
 .social-list-icon {
   fill: var(--logo-color);
-} 
+}
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
@@ -176,3 +177,23 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+/* .client-icon {
+
+} */
