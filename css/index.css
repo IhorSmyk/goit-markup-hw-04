@@ -167,7 +167,7 @@
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
-  fill: var(--hoverfocus-color);
+  fill: var(--background-color1);
 }
 
 .team-wrapper {
