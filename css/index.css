@@ -78,7 +78,7 @@
   letter-spacing: 0.03em;
 }
 
-.features .list {
+.features-list {
   display: flex;
   column-gap: 30px;
 }
