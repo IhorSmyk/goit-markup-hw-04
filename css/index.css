@@ -137,9 +137,40 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 
-.our-team .wrapper {
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.social-list-link {
+  background-color: var(--background-color1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--hoverfocus-color);
+}
+
+.social-list-icon {
+  fill: var(--logo-color);
+} 
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--hoverfocus-color);
+}
+
+.team-wrapper {
   background-color: var(--background-color1);
   border-radius: 0px 0px 4px 4px;
   padding-top: 30px;

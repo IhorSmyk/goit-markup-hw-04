@@ -1,5 +1,5 @@
 :root {
-  --background-color1: #ffffff;
+  --background-color1: #ffffff;   
   --background-color2: #f5f4fa;
   --background-color3: #2f303a;
   --foreground-color1: #212121;
@@ -7,6 +7,7 @@
   --foreground-color3: #ffffff;
   --button: #188ce8;
   --hoverfocus-color: #2196f3;
+  --logo-color: #AFB1B8;
 }
 
 h1,
