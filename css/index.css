@@ -74,7 +74,27 @@
 
 /*----------features----------*/
 
-.features-title {
+.features {
+  padding-bottom: 47px;
+}
+
+.features-list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.features-item-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-color2);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.features-item-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -84,22 +104,13 @@
   margin-bottom: 10px;
 }
 
-.features-description {
+.features-item-description {
   color: var(--foreground-color2);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-
-.features-list {
-  display: flex;
-  column-gap: 30px;
-}
-
-.features {
-  padding-bottom: 47px;
 }
 
 /*----------about job---------*/
