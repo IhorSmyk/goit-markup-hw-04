@@ -83,6 +83,10 @@
   column-gap: 30px;
 }
 
+.features-item {
+  flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
 .features-item-wrapper {
   display: flex;
   justify-content: center;

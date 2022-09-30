@@ -1,16 +1,3 @@
-body {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.projects .container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .buttons-container .buttons-list {
   display: flex;
   justify-content: center;
@@ -39,26 +26,29 @@ body {
 .buttons-sort:focus {
   background-color: var(--hoverfocus-color);
   color: var(--foreground-color3);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.projects .project-list {
+.projects-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 30px;
 }
 
-.projects .wrapper {
+.projects-list-item {
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.projects-list-item-wrapper {
   border: 1px solid #eeeeee;
   border-top: none;
 }
 
-.projects .title {
+.projects-list-item-title {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -69,7 +59,7 @@ body {
   padding-left: 24px;
 }
 
-.projects .kind {
+.projects-list-item-kind {
   color: var(--foreground-color2);
   font-style: normal;
   font-weight: 400;

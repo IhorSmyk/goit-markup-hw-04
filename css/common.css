@@ -1,5 +1,5 @@
 :root {
-  --background-color1: #ffffff;   
+  --background-color1: #ffffff;
   --background-color2: #f5f4fa;
   --background-color3: #2f303a;
   --foreground-color1: #212121;
@@ -7,7 +7,8 @@
   --foreground-color3: #ffffff;
   --button: #188ce8;
   --hoverfocus-color: #2196f3;
-  --logo-color: #AFB1B8;
+  --logo-color: #afb1b8;
+  --social-links-background-color: rgba(255, 255, 255, 0.1);
 }
 
 h1,
@@ -68,13 +69,13 @@ body {
 }
 
 .connection-link {
-  display:flex;
+  display: flex;
   align-items: center;
   column-gap: 10px;
 }
- 
+
 .connection-link:hover .connection-icon,
-.connection-link:focus .connection-icon{
+.connection-link:focus .connection-icon {
   fill: var(--hoverfocus-color);
 }
 
@@ -128,19 +129,6 @@ body {
   padding-bottom: 25px;
 }
 
-.footer {
-  background-color: var(--background-color3);
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.footer .list {
-  padding-top: 20px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 9px;
-}
-
 .logo-web {
   color: var(--hoverfocus-color);
 }
@@ -178,8 +166,17 @@ body {
   color: var(--hoverfocus-color);
 }
 
+/*----------footer----------*/
+
 .footer {
   background-color: var(--background-color3);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+  column-gap: 70px;
 }
 
 .footer .logo {
@@ -190,6 +187,13 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.our-contacts-list {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
 }
 
 .footer .link-map,
@@ -208,4 +212,44 @@ body {
 
 .footer .link-contact {
   color: rgb(255, 255, 255, 0.6);
+}
+
+.our-socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-socials-title {
+  color: var(--background-color1);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.our-socials-list {
+  display: flex;
+  column-gap: 10px;
+}
+
+.our-socials-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--social-links-background-color);
+}
+
+.our-socials-item-icon {
+  fill: var(--foreground-color3)
+}
+
+.our-socials-item-link:hover,
+.our-socials-item-link:focus {
+  background: var(--hoverfocus-color);
 }
